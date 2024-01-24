@@ -1,0 +1,25 @@
+@import "base/reset";
+@import "base/vars";
+@import "base/base";
+
+//базовые
+
+@import "./../fonts/gilroy/stylesheet.css";
+@import "./../fonts/futura-new/stylesheet.css";
+@import "./../fonts/helvetica/stylesheet.css";
+
+//blocks
+
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/nav-list";
+@import "blocks/shopping-cart";
+@import "blocks/search-form";
+@import "blocks/info-dot";
+@import "blocks/info-hint";
+@import "blocks/jordan-section";
+@import "blocks/products";
+@import "blocks/tab_controls";
+@import "blocks/product-cards";
+@import "blocks/all-products";
+@import "blocks/jordan";

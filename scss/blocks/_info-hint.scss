@@ -1,0 +1,50 @@
+.info-hint {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding-top: 12px;
+  width: 112px;
+  height: 56px;
+  background-image: url('../../images/icons/tooltip.svg');
+}
+.info-hint__radio{
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.info-hint__radio:checked + .info-hint__radio-fake{
+  //border: 2px solid red;
+  background-image: url('/images/icons/check-box.svg');
+  background-position: center center;
+}
+.info-hint__radio-fake {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  stroke: white;
+  background-color: gray;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border: 2px solid white;
+  border-radius: 50%;
+  &--orange {
+    background-color: var(--ui-orange);
+  }
+  &--dark-blue {
+    background-color: var(--ui-dark-blue);
+  }
+  &--gray {
+    background-color: var(--ui-gray);
+  }
+  &--biruza {
+    background-color: #7afadc;
+  }
+}

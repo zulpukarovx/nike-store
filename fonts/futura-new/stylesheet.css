@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Futura New';
+    src: local('Futura New ExtraBold Obl'), local('FuturaNewExtraBold-Obl'),
+        url('FuturaNewExtraBold-Obl.woff2') format('woff2');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura New';
+    src: local('Futura New Bold Obl'), local('FuturaNewBold-Obl'),
+        url('FuturaNewBold-Obl.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}

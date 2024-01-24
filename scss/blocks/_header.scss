@@ -1,0 +1,57 @@
+.header {
+  position: relative;
+  padding-top: 15px;
+  background-color: var(--footer-background-color);
+  background-image: url("/images/header/Jordan_Zion3.png");
+  background-size: cover;
+  aspect-ratio: 2688 / 1400;
+
+  color: var(--text-color);
+
+  a {
+    color: var(--text-color);
+    font-weight: bold;
+  }
+}
+.header-page {
+  padding: 15px 0;
+  color: var(--text-color);
+  background-color: #fff;
+  a {
+    color: var(--text-color);
+    font-weight: bold;
+  }
+  & .header__nav {
+    margin-bottom: 30px;
+  }
+}
+.header__nav {
+  margin-bottom: 60px;
+}
+.header__content {
+  text-align: center;
+}
+.header_title {
+  font-family: "Futura New", sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.header__search {
+  margin: 330px auto 0;
+}
+
+//dots
+
+.header__dot-sneakers-men {
+  position: absolute;
+  top: 37%;// 382 * 100 / 1400
+  left: 39.4%;// 495 * 100 / 2688
+}
+.header__dot-sneakers-women {
+  position: absolute;
+  top: 50%;// 382 * 100 / 1400
+  left: 66%;// 495 * 100 / 2688
+}

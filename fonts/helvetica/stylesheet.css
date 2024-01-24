@@ -1,0 +1,16 @@
+
+@font-face {
+    font-family: 'Helvetica Now Display';
+    src: local('Helvetica Now Display Bold'), local('HelveticaNowDisplay-Bold'),
+        url('HelveticaNowDisplay-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Now Display';
+    src: local('Helvetica Now Display Regular'), local('HelveticaNowDisplay-Regular'),
+        url('HelveticaNowDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

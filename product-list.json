@@ -1,0 +1,134 @@
+[
+  {
+    "photo": "/images/products/gratitude.webp",
+    "name": "Air Jordan 11 'Gratitude'",
+    "category": "Men's shoes",
+    "price": "$499"
+  },
+  {
+    "photo": "/images/products/air-jordan-13-retro.png",
+    "name": "Air Jordan 13 Retro",
+    "category": "Men's shoes",
+    "price": "$449"
+  },
+  {
+    "photo": "/images/products/jordan-red.png",
+    "name": "Air Jordan 13 'Cherry'",
+    "category": "Men's shoes",
+    "price": "$449"
+  },
+  {
+    "photo": "/images/products/air-jordan-13-retro-orange.png",
+    "name": "Air Jordan 13 'Cherry'",
+    "category": "Men's shoes",
+    "price": "$419"
+  },
+  {
+    "photo": "/images/products/air-jordan-xxxxvii.png",
+    "name": "Air Jordan XXXVIII 'FIBA'",
+    "category": "Basketball shoes",
+    "price": "$419"
+  },
+  {
+    "photo": "/images/products/air-jordan-jumpan.png",
+    "name": "Jordan Jumpman Pro",
+    "category": "Men's shoes",
+    "price": "$399"
+  },
+  {
+    "photo": "/images/products/dunk-low-black.png",
+    "name": "Nike Dunk Low'",
+    "category": "Shoes",
+    "price": "$399"
+  },
+  {
+    "photo": "/images/products/dunk-low-blue.png",
+    "name": "Nike Dunk Low'",
+    "category": "Shoes",
+    "price": "$399"
+  },
+  {
+    "photo": "/images/products/dunk-sunflower.png",
+    "name": "Nike Dunk Low'",
+    "category": "Shoes",
+    "price": "$399"
+  },
+  {
+    "photo": "/images/products/dunk-low-orange.png",
+    "name": "Nike Dunk Low'",
+    "category": "Shoes",
+    "price": "$449"
+  },
+  {
+    "photo": "/images/products/dunk-high-retro.png",
+    "name": "Nike Dunk Low'",
+    "category": "Shoes",
+    "price": "$399"
+  },
+  {
+    "photo": "/images/products/dunk-low-white.png",
+    "name": "Nike Dunk Low'",
+    "category": "Shoes",
+    "price": "$399"
+  },
+  {
+    "photo": "/images/products/blazer-mid-vintage.png",
+    "name": "Nike Blazer Mid '77 Vintage'",
+    "category": "Men's shoes",
+    "price": "$349"
+  },
+  {
+    "photo": "/images/products/blazer-mid-77-jumbo.png",
+    "name": "Nike Blazer Mid '77 Jumbo",
+    "category": "Men's shoes",
+    "price": "$329"
+  },
+  {
+    "photo": "/images/products/blazer-mid-77-zoom.png",
+    "name": "Nike SB Zoom Blazer Mid",
+    "category": "Skate Shoes",
+    "price": "$339"
+  },
+  {
+    "photo": "/images/products/blazer-bright-blue.png",
+    "name": "Nike Blazer Mid '77",
+    "category": "Shoes",
+    "price": "$299"
+  },
+  {
+    "photo": "/images/products/blazer-red.png",
+    "name": "Nike Blazer Mid '77 Vintage'",
+    "category": "Men's shoes",
+    "price": "$399"
+  },
+  {
+    "photo": "/images/products/phatnom-elite.png",
+    "name": "Nike Phantom GX Elite SE",
+    "category": "FG Low-Top Football Boot",
+    "price": "$699"
+  },
+  {
+    "photo": "/images/products/phantom-dynamic.png",
+    "name": "Nike Phantom GX Elite",
+    "category": "Firm-Ground High-Top Football Boot",
+    "price": "$649"
+  },
+  {
+    "photo": "/images/products/mercurial-superfly.png",
+    "name": "Nike Zoom Mercurial Superfly 9 Elite",
+    "category": "Firm-Ground Football Boot",
+    "price": "$599"
+  },
+  {
+    "photo": "/images/products/mercurial-vapor-elite.png",
+    "name": "Nike Mercurial Vapor 15 Elite",
+    "category": "Firm-Ground Low-Top Football Boot",
+    "price": "$599"
+  },
+  {
+    "photo": "/images/products/nike-tiempo-legend.png",
+    "name": "Nike Tiempo Legend 10 Elite",
+    "category": "Firm-Ground Low-Top Football Boot",
+    "price": "$449"
+  }
+]

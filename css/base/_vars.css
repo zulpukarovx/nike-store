@@ -1,0 +1,18 @@
+:root {
+  --text-color: #1e1e1e;
+  --accent: #E58411;
+  --text-muted: #8d8d8d;
+  --text-product-dark-blue: #0d1b39;
+  --ui-orange: #E58411;
+  --ui-oceanblue: #00D6C9;
+  --ui-gray: #7c7c7c;
+  --ui-dark-blue: #0d1b39;
+  --footer-accent: #f6973f;
+  --footer-background: #2d2f33;
+  --footer-text-color: #fff;
+  --header-text-color: #fff;
+  --font-main: "Helvetica Now Display", sans-serif;
+  --font-header: "Futura New", sans-serif;
+  --font-cards: "Inter", sans-serif;
+  --font-footer-cards: "DM Sans", sans-serif;
+}

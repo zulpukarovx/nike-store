@@ -1,0 +1,75 @@
+.delivery {
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
+  background-color: #f5f5f5;
+}
+.jordan {
+  padding-top: 50px;
+  & .container {
+    display: flex;
+    gap: 35px;
+  }
+}
+.jordan-images__container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  gap: 20px;
+}
+.image {
+  width: 425px;
+  height: 425px;
+  background-color: #f5f5f5;
+  & {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.right-inner__container {
+  & .container__title {
+    font-size: 30px;
+    color: #1e1e1e;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  & .container__category {
+    font-size: 16px;
+    color: #3b3b3b;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 20px;
+  }
+  & .container__price {
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 700;
+  }
+}
+
+.converter {
+  h3 {
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 700;
+  }
+  & .inner_converter {
+  }
+  padding-top: 50px;
+  & label {
+    display: block;
+    padding: 10px 0;
+  }
+  & input {
+    background-color: #f5f5f5;
+    width: 300px;
+    padding: 5px 10px;
+    display: flex;
+    font-size: 40px;
+    text-align: right;
+    border-radius: 30px;
+  }
+}
