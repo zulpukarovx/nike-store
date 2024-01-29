@@ -1,0 +1,79 @@
+.modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  display: none;
+}
+
+.modal_dialog {
+  max-width: 500px;
+  margin: 150px auto;
+  color: #1e1e1e;
+}
+
+.modal_content {
+  position: relative;
+  width: 100%;
+  padding: 40px;
+  background-color: #fff;
+  border: 2px solid var(--orange);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modal_content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal_close {
+  position: absolute;
+  top: 8px;
+  right: 14px;
+  font-size: 30px;
+  color: red;
+  opacity: 0.5;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal_title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.modal_input {
+  box-shadow: 0 8px 25px -11px rgba(66, 68, 90, 1);
+  width: 100% !important;
+  margin: 45px 0;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 16px;
+  text-align: center;
+}
+.btn_dark {
+  background-color: var(--accent);
+  padding: 8px 30px;
+  font-weight: 700;
+  color: white;
+  border-radius: 16px;
+  transition: ease-in-out 0.3s;
+}
+.btn_dark:hover{
+  background: #1e1e1e;
+  box-shadow: 0 8px 25px -11px rgba(66, 68, 90, 1);
+}
+.gmail-result {
+  padding: 20px;
+  font-weight: 700;
+}

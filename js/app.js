@@ -36,7 +36,7 @@ const swiper = new Swiper(".swiper", {
 
 // COUNTDOWN
 
-let countDownDate = new Date("Jan 31, 2024 00:00:00").getTime()
+let countDownDate = new Date("Feb 3, 2024 00:00:00").getTime()
 let x = setInterval(function(){
     let now = new Date().getTime()
     const distance = countDownDate - now

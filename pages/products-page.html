@@ -23,14 +23,14 @@
                             <a class="nav-list__link" href="../pages/jordan-page.html">Jordan</a>
                         </li>
                         <li class="nav-list__item">
-                            <a class="nav-list__link" href="#">About Us</a>
+                            <a class="nav-list__link" href="../pages/about-us.html">Weather App</a>
                         </li>
                         <li class="nav-list__item">
-                            <a class="nav-list__link" href="#">Contact</a>
+                            <a class="nav-list__link" href="../pages/review-page.html">Reviews</a>
                         </li>
                     </ul>
 
-                    <a class="cart" href="#">
+                    <a id="btn-get" class="cart" href="#">
                         <img class="cart__img" src="/images/icons/shopping-cart.png" alt="">
                         <div class="cart__count">0</div>
                     </a>
@@ -43,7 +43,86 @@
                 <div class="products"></div>
             </div>
         </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__main">
+                    <div class="footer__left-container">
+                        <div class="footer__first-column">
+                            <a href="#">FIND A STORE</a>
+                            <a href="#">SIGN UP FOR EMAIL</a>
+                        </div>
+                        <div class="footer__second-column">
+                            <ul>
+                                <li>
+                                    <a class="main-link" href="">GET HELP</a>
+                                </li>
+                                <li>
+                                    <a href="">Order Status</a>
+                                </li>
+                                <li>
+                                    <a href="">Dispatch and Delivery</a>
+                                </li>
+                                <li>
+                                    <a href="">Lorem ipsum</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__second-column">
+                            <ul>
+                                <li>
+                                    <a class="main-link" href="">About NIKE KG</a>
+                                </li>
+                                <li>
+                                    <a href="">News</a>
+                                </li>
+                                <li>
+                                    <a href="">Careers</a>
+                                </li>
+                                <li>
+                                    <a href="">Investors</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__second-column">
+                            <ul>
+                                <li>
+                                    <a class="main-link" href="">Nike Apps</a>
+                                </li>
+                                <li>
+                                    <a href="">Nike Run Clubs</a>
+                                </li>
+                                <li>
+                                    <a href="">Nike Training Club</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="footer__right-container"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal">
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <form action="#">
+                    <div class="modal_close">&times;</div>
+                    <div class="modal_title">Get 20% Off Your First Order</div>
+                    <input
+                            required
+                            placeholder="Email address"
+                            name="name"
+                            type="text"
+                            class="modal_input"
+                    >
+                    <button class="btn btn_dark btn_min">Get my 20% OFF</button>
+                    <div class="gmail-result"></div>
+                </form>
+            </div>
+        </div>
     </div>
 </body>
 <script src="../js/products-page.js"></script>
+<script src="../js/modal.js"></script>
 </html>
